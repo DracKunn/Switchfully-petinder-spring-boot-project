@@ -11,6 +11,7 @@ public class Pet {
         this.name = name;
         this.kind = kind;
         this.profileText = profileText;
+
     }
 
     public int getId() {
