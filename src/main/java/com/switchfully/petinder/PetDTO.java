@@ -1,7 +1,5 @@
 package com.switchfully.petinder;
 
-import java.util.UUID;
-
 public class PetDTO {
     private final int id;
     private final String name;
@@ -14,5 +12,21 @@ public class PetDTO {
         this.name = name;
         this.kind = kind;
         this.profileText = profileText;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Kind getKind() {
+        return kind;
+    }
+
+    public String getProfileText() {
+        return profileText;
     }
 }

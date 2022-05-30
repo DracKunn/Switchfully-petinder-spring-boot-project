@@ -1,7 +1,5 @@
 package com.switchfully.petinder;
 
-import java.util.UUID;
-
 public class Pet {
     private final int id;
     private final String name;
